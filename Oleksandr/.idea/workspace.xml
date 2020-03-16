@@ -1,7 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="efc4ab7b-ef37-470e-86c0-8a355f33b042" name="Default Changelist" comment="" />
+    <list default="true" id="efc4ab7b-ef37-470e-86c0-8a355f33b042" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/github/tutorial1/ConsumerDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/github/tutorial1/ConsumerDemoGroups.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/github/tutorial1/ConsumerDemoWithThreads.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/github/tutorial1/ProducerDemoWithKeys.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/github/tutorial1/ProducerDemoWithKeys.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/github/tutorial1/ProducerDemo.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/github/tutorial1/ProducerDemo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/github/tutorial1/ProducerDemoWithCallBacks$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/github/tutorial1/ProducerDemoWithCallBacks$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/github/tutorial1/ProducerDemoWithCallBacks.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/github/tutorial1/ProducerDemoWithCallBacks.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/github/tutorial1/ProducerDemoWithKeys$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/github/tutorial1/ProducerDemoWithKeys$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/github/tutorial1/ProducerDemoWithKeys.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/github/tutorial1/ProducerDemoWithKeys.class" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -14,6 +28,9 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
   <component name="MavenImportPreferences">
     <option name="importingSettings">
       <MavenImportingSettings>
@@ -22,6 +39,7 @@
     </option>
   </component>
   <component name="ProjectId" id="1Z2h795GvW3AZil1viObqB7eWSe" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -29,8 +47,10 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -47,9 +67,35 @@
       <recent name="github.tutorial1" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ProducerDemoWithKeys">
-    <configuration name="ProducerDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="github.tutorial1.ProducerDemo" />
+  <component name="RunManager" selected="Application.ConsumerDemoWithThreads">
+    <configuration name="ConsumerDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="github.tutorial1.ConsumerDemo" />
+      <module name="Oleksandr" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="github.tutorial1.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ConsumerDemoGroups" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="github.tutorial1.ConsumerDemoGroups" />
+      <module name="Oleksandr" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="github.tutorial1.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ConsumerDemoWithThreads" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="github.tutorial1.ConsumerDemoWithThreads" />
       <module name="Oleksandr" />
       <extension name="coverage">
         <pattern>
@@ -89,9 +135,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ConsumerDemoWithThreads" />
+        <item itemvalue="Application.ConsumerDemo" />
+        <item itemvalue="Application.ConsumerDemoGroups" />
         <item itemvalue="Application.ProducerDemoWithKeys" />
         <item itemvalue="Application.ProducerDemoWithCallBacks" />
-        <item itemvalue="Application.ProducerDemo" />
       </list>
     </recent_temporary>
   </component>
@@ -106,6 +154,7 @@
       <option name="presentableId" value="Default" />
       <updated>1584042926369</updated>
       <workItem from="1584042929921" duration="3802000" />
+      <workItem from="1584106130983" duration="6267000" />
     </task>
     <servers />
   </component>
@@ -117,30 +166,34 @@
       <screen x="0" y="23" width="1440" height="826" />
     </state>
     <state x="320" y="101" key="#Project_Structure/0.23.1440.826@0.23.1440.826" timestamp="1584043357122" />
-    <state width="668" height="213" key="GridCell.Tab.0.bottom" timestamp="1584105268768">
+    <state x="898" y="166" key="#com.intellij.ide.util.MemberChooser" timestamp="1584130374046">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="668" height="213" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1584105268768" />
-    <state width="1398" height="213" key="GridCell.Tab.0.bottom/0.23.1440.826@0.23.1440.826" timestamp="1584046132990" />
-    <state width="668" height="213" key="GridCell.Tab.0.center" timestamp="1584105268767">
-      <screen x="0" y="0" width="1440" height="900" />
-    </state>
-    <state width="668" height="213" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1584105268767" />
-    <state width="1398" height="213" key="GridCell.Tab.0.center/0.23.1440.826@0.23.1440.826" timestamp="1584046132989" />
-    <state width="668" height="213" key="GridCell.Tab.0.left" timestamp="1584105268766">
-      <screen x="0" y="0" width="1440" height="900" />
-    </state>
-    <state width="668" height="213" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1584105268766" />
-    <state width="1398" height="213" key="GridCell.Tab.0.left/0.23.1440.826@0.23.1440.826" timestamp="1584046132989" />
-    <state width="668" height="213" key="GridCell.Tab.0.right" timestamp="1584105268768">
-      <screen x="0" y="0" width="1440" height="900" />
-    </state>
-    <state width="668" height="213" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1584105268768" />
-    <state width="1398" height="213" key="GridCell.Tab.0.right/0.23.1440.826@0.23.1440.826" timestamp="1584046132990" />
-    <state x="208" y="23" width="1024" height="828" key="SettingsEditor" timestamp="1584044809686">
+    <state x="898" y="166" key="#com.intellij.ide.util.MemberChooser/0.0.1440.900@0.0.1440.900" timestamp="1584130374046" />
+    <state width="1398" height="185" key="GridCell.Tab.0.bottom" timestamp="1584133060268">
       <screen x="0" y="23" width="1440" height="826" />
     </state>
-    <state x="208" y="23" key="SettingsEditor/0.23.1440.826@0.23.1440.826" timestamp="1584044809686" />
+    <state width="668" height="185" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1584132331328" />
+    <state width="1398" height="185" key="GridCell.Tab.0.bottom/0.23.1440.826@0.23.1440.826" timestamp="1584133060268" />
+    <state width="1398" height="185" key="GridCell.Tab.0.center" timestamp="1584133060266">
+      <screen x="0" y="23" width="1440" height="826" />
+    </state>
+    <state width="668" height="185" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1584132331325" />
+    <state width="1398" height="185" key="GridCell.Tab.0.center/0.23.1440.826@0.23.1440.826" timestamp="1584133060266" />
+    <state width="1398" height="185" key="GridCell.Tab.0.left" timestamp="1584133060266">
+      <screen x="0" y="23" width="1440" height="826" />
+    </state>
+    <state width="668" height="185" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1584132331323" />
+    <state width="1398" height="185" key="GridCell.Tab.0.left/0.23.1440.826@0.23.1440.826" timestamp="1584133060266" />
+    <state width="1398" height="185" key="GridCell.Tab.0.right" timestamp="1584133060267">
+      <screen x="0" y="23" width="1440" height="826" />
+    </state>
+    <state width="668" height="185" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1584132331327" />
+    <state width="1398" height="185" key="GridCell.Tab.0.right/0.23.1440.826@0.23.1440.826" timestamp="1584133060267" />
+    <state x="208" y="23" width="1024" height="828" key="SettingsEditor" timestamp="1584106269917">
+      <screen x="0" y="23" width="1440" height="826" />
+    </state>
+    <state x="208" y="23" key="SettingsEditor/0.23.1440.826@0.23.1440.826" timestamp="1584106269917" />
     <state x="208" y="23" width="1024" height="828" key="SettingsEditor/0.23.1440.828@0.23.1440.828" timestamp="1584043018051" />
   </component>
 </project>

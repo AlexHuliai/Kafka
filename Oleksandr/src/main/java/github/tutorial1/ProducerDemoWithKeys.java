@@ -23,8 +23,7 @@ public class ProducerDemoWithKeys {
         for (int i = 0; i < 10; i++) {
             String topic = "first_topic";
             String value = "jello World";
-            String key = "id_"+Integer.toString(i);
-            final ProducerRecord<String, String> record = new ProducerRecord<String, String>(topic,key, value + Integer.toString(i));
+            String key = "id_"+Integer.toString(i);final ProducerRecord<String, String> record = new ProducerRecord<String, String>(topic,key, value + Integer.toString(i));
 
             logger.info("Key :" + key);
             producer.send(record, new Callback() {
